@@ -1,0 +1,51 @@
+body {color: rgb(255, 255, 255);
+    background-color: rgb(7, 56, 85);
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold
+}
+
+ul { 
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 30px;
+  font-size: 28px
+}
+
+a { 
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+header img {
+  width: 300x;
+  height: 300px;
+  border-radius: 50%;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.about  {
+    text-align: center;       /* Centraliza o texto horizontalmente */
+    max-width: 600px;         /* Define uma largura máxima para o texto */
+    margin: 0 auto;           /* Centraliza o bloco de texto na tela */
+    line-height: 1.6;         /* Aumenta o espaçamento entre as linhas para melhorar a legibilidade */
+    padding: 10px;            /* Adiciona um pequeno padding ao redor do texto */
+    font-size: 1.2em;         /* Ajusta o tamanho da fonte (opcional) */
+    color: #ffffff;              /* Define a cor do texto */
+  }
+
+  .container {
+    padding: 0px 90px;
+  }
+
+.center {
+  text-align: center;
+  font-size: larger;
+}
+
+nav a:hover {
+  color: green;
+}
+

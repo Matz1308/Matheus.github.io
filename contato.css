@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold
+}
+
+ul { 
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 50px;
+  font-size: 28px
+}
+
+a { 
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.barra {
+ padding: 0px 90px;
+ text-align: center;
+}
+  
+  nav a:hover {
+    color: green;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(7, 56, 82); /* Fundo da página: altere os valores RGB conforme desejado */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container do formulário */
+.container {
+    background-color: rgb(255, 255, 255); /* Fundo do formulário: altere os valores RGB conforme desejado */
+    max-width: 600px; /* Largura máxima do formulário */
+    margin: 50px auto; /* Centraliza o formulário na página */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ao redor do formulário */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+/* Título do formulário */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Estilos do formulário */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos dos rótulos */
+label {
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Estilos dos campos de entrada e textarea */
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid rgb(7, 56, 82); /* Borda com cor RGB: altere conforme desejado */
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: rgb(245, 245, 245); /* Fundo dos campos: altere conforme desejado */
+}
+
+/* Estilo específico para textarea */
+textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+/* Estilos do botão */
+button {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(51, 51, 51); /* Cor do botão: altere conforme desejado */
+    color: white;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilos do botão ao passar o mouse */
+button:hover {
+    background-color: rgb(85, 85, 85); /* Cor do botão ao hover: altere conforme desejado */
+}
